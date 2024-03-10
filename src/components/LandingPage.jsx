@@ -42,6 +42,50 @@ return(
                 </ul>
               </div>
             </div>
+            <div className="">
+                <div className="flex justify-between rounded-t-xl bg-gray-100">
+                  <div className="pt-5 pl-5 font-semibold font-sans">
+                    Collection-1
+                  </div>
+                  <div className="">
+                    <div className="space-x-3 pt-5 pr-5">
+                      <button className="text-gray-900 bg-white  font-medium rounded-lg text-sm w-full sm:w-auto px-3 py-2.5 text-center">
+                        View
+                      </button>
+                      <button className="text-gray-900 bg-white  font-medium rounded-lg text-sm w-full sm:w-auto px-3 py-2.5 text-center">
+                        Edit Learning Page
+                      </button>
+                      <button className="text-white bg-blue-700 outline outline-1 font-medium rounded-lg text-sm w-full sm:w-auto px-3 py-2.5 text-center">
+                        Learner's Access
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-gray-100 grid rounded-b-xl pl-2">
+                  <div className="flex flex-row items-center">
+                    <div className="bg-blue-300 m-2 h-72 w-72 flex justify-center items-center rounded-xl">
+                      {/* <div className="absolute -translate-y-[-9rem] text-center"> */}
+                      <div className="text-center text-md">
+                        <h1 className="p-5 font-semibold">Create a course</h1>
+                        <p>
+                          Start building the course super-fast, either from
+                          scratch or using the AI Course Creator.
+                        </p>
+                      </div>
+                      {/* </div> */}
+                    </div>
+                    {/* <div className="bg-blue-600 h-48 w-48">new button</div> */}
+                  </div>
+                </div>
+                <div className="p-1 mt-2">
+                  <button
+                    id="Audience"
+                    class="bg-gray-100 pl-7 pt-2 pb-2 pr-7 rounded-3xl hover:bg-gray-300 font-medium text-sm w-full sm:w-auto text-center"
+                  >
+                    + Add collection
+                  </button>
+                </div>
+              </div>
         </nav>
         </div>
         </>
