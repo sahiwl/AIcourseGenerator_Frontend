@@ -1,16 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import LandingPage from './components/LandingPage'
+import FormSubmission from './components/FormSubmission'
+import { BrowserRouter, Routes, Route, Form } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <LandingPage/>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<LandingPage/>}/>
+      <Route path='/Form' element={<FormSubmission/>} />  
+    </Routes>
+    </BrowserRouter>
   )
 }
 
